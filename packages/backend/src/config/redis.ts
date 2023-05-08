@@ -13,8 +13,8 @@ type TRedisConfig = {
 const redisConfig: TRedisConfig = {
   host: appConfig.redisHost,
   port: appConfig.redisPort,
-  username: appConfig.redisUsername,
-  password: appConfig.redisPassword,
+  // username: appConfig.redisUsername,
+  // password: appConfig.redisPassword,
   enableOfflineQueue: false,
   enableReadyCheck: true,
 };

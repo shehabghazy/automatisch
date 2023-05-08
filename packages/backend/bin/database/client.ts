@@ -2,8 +2,9 @@ import { Client } from 'pg';
 
 const client = new Client({
   host: 'localhost',
-  user: 'postgres',
-  port: 5432,
+  user: 'test',
+  password: '@Test123',
+  port: 6500,
 });
 
 export default client;
